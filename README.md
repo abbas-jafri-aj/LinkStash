@@ -22,6 +22,10 @@ A browser extension for Firefox and Chrome that collects links as Plain URLs or 
 4. Copy all (plain or bulleted) or manage individual links
 5. Check "As Markdown" for `[title](url)` format, uncheck for plain URLs
 
+## GIF
+
+![LinkStash demo](linkstash.gif)
+
 ## Link Format
 
 **With Markdown (checkbox checked):**
