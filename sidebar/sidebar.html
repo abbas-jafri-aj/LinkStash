@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkStash</title>
+  <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+  <header>
+    <h1>LinkStash</h1>
+    <div class="actions">
+      <button id="copy-plain" title="Copy all as plain text">Copy Plain</button>
+      <button id="copy-bulleted" title="Copy all as bulleted list">Copy Bulleted</button>
+      <label class="checkbox-label">
+        <input type="checkbox" id="global-markdown">
+        As Markdown
+      </label>      
+      <button id="delete-all" title="Delete all links">Delete All</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Links are inserted here by sidebar.js -->
+    <ul id="links-list"></ul>
+
+    <!-- Shown when no links saved -->
+    <p id="empty-state">No links saved yet.</p>
+  </main>
+
+  <script src="sidebar.js"></script>
+</body>
+</html>

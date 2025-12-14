@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "LinkStash",
+  "version": "1.0.0",
+  "description": "Collect links as Markdown",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "LinkStash"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "sidebar_action": {
+    "default_title": "LinkStash",
+    "default_panel": "sidebar/sidebar.html"
+  },
+  "commands": {
+    "save-link": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Save focused link to LinkStash"
+    }
+  }
+}
