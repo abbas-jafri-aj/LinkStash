@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Stacked layers: three horizontal bars representing collected links -->
+  <g fill="#0066cc">
+    <!-- Top bar (shortest) -->
+    <rect x="32" y="24" width="64" height="16" rx="8" ry="8"/>
+    <!-- Middle bar (medium) -->
+    <rect x="24" y="56" width="80" height="16" rx="8" ry="8"/>
+    <!-- Bottom bar (longest) -->
+    <rect x="16" y="88" width="96" height="16" rx="8" ry="8"/>
+  </g>
+</svg>
